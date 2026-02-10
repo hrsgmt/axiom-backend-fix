@@ -1,3 +1,4 @@
+throw new Error("BOOT_TOP");
 throw new Error("BOOT_FROM_SERVER_JS")
 import loginRoute from "./routes/auth/login.js";
 import Fastify from "fastify";
