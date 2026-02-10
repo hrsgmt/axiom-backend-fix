@@ -1,7 +1,7 @@
-import Fastify from "fastify";
+import http from "http";
 
-const app = Fastify();
+const server = http.createServer((req, res) => {
+  res.end("AXIOM_BACKEND_ALIVE");
+});
 
-app.get("/", async () => "AXIOM_BACKEND_ALIVE");
-
-await app.listen({ port: process.env.PORT || 3000, host: "0.0.0.0" });
+server.listen(process.env.PORT || 3000, "0.0.0.0");
