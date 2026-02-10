@@ -15,5 +15,6 @@ app.get("/__health", async () => {
 
 console.log("ABOUT_TO_LISTEN");
 console.log("STEP_4_ABOUT_TO_LISTEN");
+app.get("/__health", async () => ({ status: "ok" }));
 await app.listen({ port: process.env.PORT || 4000, host: "0.0.0.0" });
 console.log("STEP_5_LISTENED");
