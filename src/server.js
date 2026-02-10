@@ -7,6 +7,7 @@ const app = Fastify();
 app.get("/", async () => "RUNNING_FROM_THIS_FILE");
 
 app.get("/__health", async () => ({ status: "ok" }));
+app.get("/api/test", async () => "API_OK");
 
 app.get("/api/test", async () => "API_OK");
 
