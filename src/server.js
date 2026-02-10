@@ -4,7 +4,7 @@ console.log("BOOT_FRESH");
 
 const app = Fastify();
 
-app.get("/", async () => "AXIOM_BACKEND_ALIVE");
+app.get("/", async () => "RUNNING_FROM_THIS_FILE");
 
 app.get("/__health", async () => ({ status: "ok" }));
 
