@@ -6,7 +6,6 @@ import Fastify from "fastify";
 const app = Fastify();
 
 app.get("/", () => "AXIOM_V2_PIPELINE_TEST_999");
-  return "I_AM_V2_CLEAN";
 });
 
 console.log("ABOUT_TO_LISTEN");
