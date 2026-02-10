@@ -1,1 +1,1 @@
-throw new Error("INDEX_EXECUTED");
+throw new Error("CRASH_TEST")
