@@ -5,6 +5,7 @@ console.log("BOOT_START");
 import Fastify from "fastify";
 
 const app = Fastify();
+console.log("API_STAGE_START");
 console.log("STEP_3_FASTIFY_CREATED");
 
 app.get("/", async () => "AXIOM_BACKEND_ALIVE");
