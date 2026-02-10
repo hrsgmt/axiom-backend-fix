@@ -1,3 +1,4 @@
+console.log("SERVER_FILE_LOADED_V2");
 console.log("BOOT_START");
 
 import Fastify from "fastify";
