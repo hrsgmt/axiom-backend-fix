@@ -1,1 +1,1 @@
-throw new Error("BOOT_CRASH_TEST")
+throw new Error("INDEX_EXECUTED");
