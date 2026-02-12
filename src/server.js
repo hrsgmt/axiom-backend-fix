@@ -1,4 +1,4 @@
-import loginRoute from "./routes/auth/login.js";
+import loginRoute from "./routes/auth.js";
 import Fastify from "fastify";
 
 console.log("BOOT_FRESH");
