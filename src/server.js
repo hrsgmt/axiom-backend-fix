@@ -13,4 +13,5 @@ app.get("/api/test", async () => "API_OK");
 app.get("/api/test", async () => "API_OK");
 
 await app.register(loginRoute, { prefix: "/api" });
+console.log(app.printRoutes())
 await app.listen({ port: process.env.PORT || 4000, host: "0.0.0.0" });
