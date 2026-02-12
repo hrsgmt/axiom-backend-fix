@@ -1,4 +1,3 @@
-throw new Error("BOOT_TOP");
 import loginRoute from "./routes/auth/login.js";
 import Fastify from "fastify";
 
