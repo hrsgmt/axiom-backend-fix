@@ -5,7 +5,7 @@ console.log("BOOT_FRESH");
 
 const app = Fastify();
 
-app.get("/", async () => "RUNNING_FROM_THIS_FILE");
+app.get("/", async () => "SERVER_VERSION_777");
 
 app.get("/__health", async () => ({ status: "ok" }));
 app.get("/api/test", async () => "API_OK");
