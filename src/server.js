@@ -16,3 +16,4 @@ console.log(app.printRoutes());
 console.log(app.printRoutes())
 await app.listen({ port: process.env.PORT || 4000, host: "0.0.0.0" });
 // FORCE_1770916287
+app.get("/__fingerprint", async () => "FINGERPRINT_999");
