@@ -1,1 +1,1 @@
-import "./src/server.js";
+throw new Error("INDEX_CRASH_TEST")
